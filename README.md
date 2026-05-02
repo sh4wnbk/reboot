@@ -9,7 +9,7 @@ fixes that.
 
 ## What it does
 
-Session Resume Card reads an IBM Bob IDE session export and produces a 
+**Session Resume Card** reads an IBM Bob IDE session export and produces a 
 Restoration String — a compact summary of exactly where you were, what you 
 were doing, and what to do next. Paste it into a new Bob session and you're 
 back up to speed instantly.
