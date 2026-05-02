@@ -22,6 +22,7 @@ picking up where they left off after meetings, or resuming work the next day.
 ## Demo
 
 ![Session Resume Card output](demo.png)
+*Example output from a **Session Resume Card** of the [F1 Race Replay](https://github.com/IAmTomShaw/f1-race-replay) codebase architecture. The Restoration String would show the developer exactly where they were (high-level overview), what they accomplished (extracted GUI components), and what to tackle next (dive into tyre degradation module).*
 
 ## How to use it
 
