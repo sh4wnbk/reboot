@@ -31,6 +31,15 @@ picking up where they left off after meetings, or resuming work the next day.
 - `requests` library: `pip install requests`
 
 **Setup:**
+
+Option 1: Use the convenience script (recommended):
+```powershell
+# Copy the template and add your credentials
+copy run.ps1.template run.ps1
+# Edit run.ps1 with your actual API key and project ID
+```
+
+Option 2: Set environment variables manually:
 ```powershell
 # Set your credentials (PowerShell)
 $env:WATSONX_API_KEY = "your-ibm-cloud-api-key"
@@ -39,7 +48,10 @@ $env:PROJECT_ID = "your-watsonx-project-id"
 
 **Run:**
 ```powershell
-# Structured card output (recommended)
+# Using the convenience script (if you created run.ps1)
+.\run.ps1 --export your_session_export.md --format structured
+
+# Or run directly with Python (if environment variables are set)
 python resume.py --export your_session_export.md --format structured
 
 # Paragraph output

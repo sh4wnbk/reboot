@@ -87,7 +87,10 @@ def format_card(fields: dict) -> str:
 
 
 def generate_restoration_string(export_text, token, fmt="paragraph"):
-    export_text = export_text[-3000:]
+    # Take first 1500 chars (task context) + last 1500 chars (outcome)
+    # This ensures we capture both the initial task and the final result
+    if len(export_text) > 3000:
+        export_text = export_text[:1500] + "\n...\n" + export_text[-1500:]
     instruction = INSTRUCTION if fmt == "paragraph" else INSTRUCTION_STRUCTURED
     few_shot = FEW_SHOT_PARAGRAPH if fmt == "paragraph" else FEW_SHOT_STRUCTURED
     prompt = f"{instruction}\n\n{few_shot}\n\nInput:\n{export_text}\n\nOutput:"
@@ -126,14 +129,15 @@ def generate_restoration_string(export_text, token, fmt="paragraph"):
         result = "\n".join(clean[:6])
     return result
 
-if not WATSONX_API_KEY or not PROJECT_ID:
-    print("Error: WATSONX_API_KEY and PROJECT_ID environment variables must be set.")
-    print("Run: $env:WATSONX_API_KEY='your-key'")
-    print("Run: $env:PROJECT_ID='your-project-id'")
-    sys.exit(1)
-
 
 def main():
+    # Check environment variables at runtime, not at module load time
+    if not WATSONX_API_KEY or not PROJECT_ID:
+        print("Error: WATSONX_API_KEY and PROJECT_ID environment variables must be set.")
+        print("Run: $env:WATSONX_API_KEY='your-key'")
+        print("Run: $env:PROJECT_ID='your-project-id'")
+        sys.exit(1)
+    
     parser = argparse.ArgumentParser(description="Session Resume Card — generate a Restoration String from a Bob session export.")
     parser.add_argument("--export", required=True, help="Path to the Bob session export .md file")
     parser.add_argument("--format", choices=["paragraph", "structured"],

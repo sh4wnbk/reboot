@@ -1,0 +1,7 @@
+# Template for run.ps1
+# Copy this file to run.ps1 and replace with your actual credentials
+# run.ps1 is in .gitignore to keep your credentials safe
+
+$env:WATSONX_API_KEY = "your-watsonx-api-key-here"
+$env:PROJECT_ID = "your-project-id-here"
+python resume.py $args
