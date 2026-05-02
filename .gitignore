@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+run.ps1
+
+# API keys or credentials
+*.key
+*.pem
+*.p12
+*.crt
+
+# Token files
+token.txt
+*.token
+
+# Bob / AI agent secrets
+secret_*.json
+keys/
+secrets/
+
+# Local config
+config.py
+local_config.py
+run.ps1
