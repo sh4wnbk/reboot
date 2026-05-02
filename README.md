@@ -46,6 +46,7 @@ python resume.py --export your_session_export.md --format paragraph
 **Output (structured mode):**
 
 
+
 ## How to export a Bob session
 
 1. In Bob IDE: Views → More Actions → History
