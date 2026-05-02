@@ -1,5 +1,5 @@
 ![A developer staring at their screen trying to remember where they left off](developer.png)
-*"Every developer knows the feeling: you open your IDE after a break and spend the first 20 minutes just figuring out where you left off."*
+*AI Generated image*
 
 # Session Resume Card
 
