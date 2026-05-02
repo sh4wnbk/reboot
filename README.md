@@ -23,7 +23,7 @@ picking up where they left off after meetings, or resuming work the next day.
 
 ![Session Resume Card output](bob_sessions/demo.png)
 
-*Example output from analyzing a Bob session in which a developer explored the [F1 Race Replay](https://github.com/IAmTomShaw/f1-race-replay) codebase architecture. The Restoration String shows exactly where they were (high‑level overview), what they accomplished (extracted GUI components), and what to tackle next (diving into the tyre‑degradation module).*
+*Example output from analyzing a Bob session for which a developer may be exploring the [F1 Race Replay](https://github.com/IAmTomShaw/f1-race-replay) codebase architecture. The Restoration String shows exactly where they were (high‑level overview), what they accomplished (extracted GUI components), and what to tackle next (diving into the tyre‑degradation module).*
 
 
 ## How to use it
