@@ -28,3 +28,8 @@ secrets/
 config.py
 local_config.py
 run.ps1
+
+# Bob session exports (may contain sensitive data)
+# Review carefully before committing
+bob_sessions/*_debug.md
+bob_sessions/*_test.md
