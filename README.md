@@ -4,7 +4,7 @@
 # Session Resume Card
 
 Every developer knows the feeling: you open your IDE after a break and spend 
-the first 20 minutes just figuring out where you left off. Session Resume Card 
+the first 20 minutes just figuring out where you left off. **Session Resume Card**
 fixes that.
 
 ## What it does
