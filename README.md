@@ -104,11 +104,11 @@ Before **⚡ reB0ot**, your Monday morning or post-break routine looked like a 2
 
 With **⚡ reB0ot**, you paste a single string, hit enter, and you're immediately back in the zone—no mental reloading required.
 
-![A developer smiling, fully in the flow, and confidently back at work](bob_sessions/reboot.png)
+![A developer smiling, fully in the flow, and confidently back at work](bob_sessions/reB0ot.png)
 *AI Generated image*
 
 ### Ready to skip the 20-minute catch-up?
 
 Don't let breaks break your momentum.
 
-Get started with **⚡ reB0ot** today and treat Monday morning context-switching like a solved problem.
+Get started with **⚡ reB0ot** today and treat your Monday morning p-p-d **(prompt-and-pray-development)** like a solved problem.
