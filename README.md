@@ -111,4 +111,4 @@ With **⚡ reB0ot**, you paste a single string, hit enter, and you're immediatel
 
 ### Ready to skip the 20-minute catch-up?
 
-Get started with **⚡ reB0ot** today and treat your Monday morning p-p-d **(prompt-and-pray-development)** like a pro.
+Get started with **⚡ reB0ot** today and treat your Monday morning p-p-d **(prompt-and-pray-development)** like a pro!
