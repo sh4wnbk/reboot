@@ -93,5 +93,22 @@ is proof.
 
 ## Bob sessions
 
-All exported Bob task sessions are in the `bob_sessions/` folder, including 
+All exported Bob task sessions are in the `bob_sessions/` folder, including
 consumption summary screenshots and full task history markdown files.
+
+---
+
+## The reB0ot Effect
+
+Before **⚡ reB0ot**, your Monday morning or post-break routine looked like a 20-minute loading bar in your head.
+
+With **⚡ reB0ot**, you paste a single string, hit enter, and you're immediately back in the zone—no mental reloading required.
+
+![A developer smiling, fully in the flow, and confidently back at work](bob_sessions/reboot.png)
+*AI Generated image*
+
+### Ready to skip the 20-minute catch-up?
+
+Don't let breaks break your momentum.
+
+Get started with **⚡ reB0ot** today and treat Monday morning context-switching like a solved problem.
