@@ -100,7 +100,8 @@ consumption summary screenshots and full task history markdown files.
 
 ## The reB0ot Effect
 
-Before **⚡ reB0ot**, your Monday morning or post-break routine looked like a 20-minute loading bar in your head.
+Before **⚡ reB0ot**, your Monday morning or post-break routine looked like a ![A progress bar](bob_sessions/progress_bar.png) of "What did I do yesterday?" and "What am I doing today?"
+
 
 With **⚡ reB0ot**, you paste a single string, hit enter, and you're immediately back in the zone—no mental reloading required.
 
