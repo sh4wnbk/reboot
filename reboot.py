@@ -3,6 +3,7 @@ import sys
 import requests
 import textwrap
 import os
+import io
 
 # === CONFIGURATION ===
 WATSONX_API_KEY = os.environ.get("WATSONX_API_KEY", "")
@@ -131,6 +132,9 @@ def generate_restoration_string(export_text, token, fmt="paragraph"):
 
 
 def main():
+    # Set stdout to UTF-8 encoding to handle Unicode characters
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    
     # Check environment variables at runtime, not at module load time
     if not WATSONX_API_KEY or not PROJECT_ID:
         print("Error: WATSONX_API_KEY and PROJECT_ID environment variables must be set.")
@@ -138,7 +142,7 @@ def main():
         print("Run: $env:PROJECT_ID='your-project-id'")
         sys.exit(1)
     
-    parser = argparse.ArgumentParser(description="⚡ reB0ot — generate a Restoration String from a Bob session export.")
+    parser = argparse.ArgumentParser(description="reB0ot - generate a Restoration String from a Bob session export.")
     parser.add_argument("--export", required=True, help="Path to the Bob session export .md file")
     parser.add_argument("--format", choices=["paragraph", "structured"],
                         default="paragraph", help="Output format")
