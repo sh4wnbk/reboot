@@ -11,8 +11,7 @@ fixes that.
 
 **⚡ reB0ot** reads an IBM Bob IDE session export and produces a
 Restoration String — a compact summary of exactly where you were, what you
-were doing, and what to do next. Paste it into a new Bob session and - **⚡ reB0ot**
-Instanly back up to speed!
+were doing, and what to do next. Paste it into a new Bob session and - **⚡ reB0ot** instantly back up to speed!
 
 
 ## Who it's for
