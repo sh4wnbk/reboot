@@ -100,7 +100,8 @@ consumption summary screenshots and full task history markdown files.
 
 ## The reB0ot Effect
 
-Before **⚡ reB0ot**, your Monday morning or post-break routine looked like a ![A progress bar](bob_sessions/progress_bar.png) of "What did I do yesterday?" and "What am I doing today?"
+Before **⚡ reB0ot**, your Monday morning or post-break routine looked like ...
+![A progress bar](bob_sessions/progress_bar.png) 
 
 
 With **⚡ reB0ot**, you paste a single string, hit enter, and you're immediately back in the zone—no mental reloading required.
@@ -110,6 +111,4 @@ With **⚡ reB0ot**, you paste a single string, hit enter, and you're immediatel
 
 ### Ready to skip the 20-minute catch-up?
 
-Don't let breaks break your momentum.
-
-Get started with **⚡ reB0ot** today and treat your Monday morning p-p-d **(prompt-and-pray-development)** like a solved problem.
+Get started with **⚡ reB0ot** today and treat your Monday morning p-p-d **(prompt-and-pray-development)** like a pro.
