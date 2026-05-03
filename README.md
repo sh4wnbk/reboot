@@ -1,17 +1,17 @@
 ![A developer staring at their screen trying to remember where they left off](developer.png)
 *AI Generated image*
 
-# Session Resume Card
+# ⚡ reB0ot
 
-Every developer knows the feeling: you open your IDE after a break and spend 
-the first 20 minutes just figuring out where you left off. **Session Resume Card**
+Every developer knows the feeling: you open your IDE after a break and spend
+the first 20 minutes just figuring out where you left off. **⚡ reB0ot**
 fixes that.
 
 ## What it does
 
-**Session Resume Card** reads an IBM Bob IDE session export and produces a 
-Restoration String — a compact summary of exactly where you were, what you 
-were doing, and what to do next. Paste it into a new Bob session and you're 
+**⚡ reB0ot** reads an IBM Bob IDE session export and produces a
+Restoration String — a compact summary of exactly where you were, what you
+were doing, and what to do next. Paste it into a new Bob session and you're
 back up to speed instantly.
 
 ## Who it's for
@@ -21,9 +21,9 @@ picking up where they left off after meetings, or resuming work the next day.
 
 ## Demo
 
-![Session Resume Card output](bob_sessions/demo.png)
+![⚡ reB0ot output](bob_sessions/demo.png)
 
-![Session Resume Card output](bob_sessions/demo2.png)
+![⚡ reB0ot output](bob_sessions/demo2.png)
 
 *Example outputs from analyzing a Bob session for which a developer may be exploring the [F1 Race Replay](https://github.com/IAmTomShaw/f1-race-replay) codebase architecture. The Restoration String shows exactly where they were (high‑level overview), what they accomplished (extracted GUI components), and what to tackle next (diving into the tyre‑degradation module).*
 
@@ -57,10 +57,10 @@ $env:PROJECT_ID = "your-watsonx-project-id"
 .\run.ps1 --export your_session_export.md --format structured
 
 # Or run directly with Python (if environment variables are set)
-python resume.py --export your_session_export.md --format structured
+python reboot.py --export your_session_export.md --format structured
 
 # Paragraph output
-python resume.py --export your_session_export.md --format paragraph
+python reboot.py --export your_session_export.md --format paragraph
 ```
 
 **Output (structured mode):**
@@ -72,12 +72,12 @@ python resume.py --export your_session_export.md --format paragraph
 1. In Bob IDE: Views → More Actions → History
 2. Select a task → click the Export icon
 3. Save the `.md` file
-4. Run `resume.py` against it
+4. Run `reboot.py` against it
 
 ## How it was built
 
-Built entirely using IBM Bob IDE and watsonx.ai — every session was exported 
-and fed back into the tool itself. The bob_sessions/ folder contains the 
+Built entirely using IBM Bob IDE and watsonx.ai — every session was exported
+and fed back into ⚡ reB0ot itself. The bob_sessions/ folder contains the
 exported task histories from this project's own development.
 
 **Stack:**
@@ -87,8 +87,8 @@ exported task histories from this project's own development.
 
 ## The meta angle
 
-This tool was built using itself. Every Bob session during development was 
-exported and processed through Session Resume Card. The bob_sessions/ folder 
+This tool was built using itself. Every Bob session during development was
+exported and processed through ⚡ reB0ot. The bob_sessions/ folder
 is proof.
 
 ## Bob sessions

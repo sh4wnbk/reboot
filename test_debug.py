@@ -1,5 +1,5 @@
 """
-Debug test suite for resume.py
+Debug test suite for reboot.py
 Tests all major functions and edge cases
 """
 import sys
@@ -16,7 +16,7 @@ if sys.platform == 'win32':
 # Add current directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import resume
+import reboot as resume
 
 def test_format_card():
     """Test the format_card function with various inputs"""
@@ -262,7 +262,7 @@ def test_constants():
 def run_all_tests():
     """Run all debug tests"""
     print("=" * 60)
-    print("RESUME.PY DEBUG TEST SUITE")
+    print("REBOOT.PY DEBUG TEST SUITE")
     print("=" * 60)
     
     tests = [

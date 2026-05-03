@@ -138,7 +138,7 @@ def main():
         print("Run: $env:PROJECT_ID='your-project-id'")
         sys.exit(1)
     
-    parser = argparse.ArgumentParser(description="Session Resume Card — generate a Restoration String from a Bob session export.")
+    parser = argparse.ArgumentParser(description="⚡ reB0ot — generate a Restoration String from a Bob session export.")
     parser.add_argument("--export", required=True, help="Path to the Bob session export .md file")
     parser.add_argument("--format", choices=["paragraph", "structured"],
                         default="paragraph", help="Output format")

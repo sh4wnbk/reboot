@@ -1,11 +1,11 @@
-# Debug Test Report for resume.py
-**Generated:** 2026-05-02  
+# Debug Test Report for reboot.py
+**Generated:** 2026-05-02
 **Status:** ✅ ALL TESTS PASSED
 
 ---
 
 ## Executive Summary
-Comprehensive debug testing completed on the `resume.py` codebase. All 7 test categories passed successfully with 0 failures.
+Comprehensive debug testing completed on the `reboot.py` codebase. All 7 test categories passed successfully with 0 failures.
 
 ---
 
@@ -178,7 +178,7 @@ if not WATSONX_API_KEY or not PROJECT_ID:
 
 ## Conclusion
 
-The `resume.py` codebase is **production-ready** with:
+The `reboot.py` codebase is **production-ready** with:
 - ✅ Clean, syntactically valid Python code
 - ✅ Proper error handling
 - ✅ Well-structured functions

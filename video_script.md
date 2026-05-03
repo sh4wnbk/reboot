@@ -1,9 +1,9 @@
-# Session Resume Card - Video Demo Script
+# ⚡ reB0ot - Video Demo Script
 
 ## [TITLE SLIDE - 5 seconds]
-**On screen:** Team name + "Session Resume Card"
+**On screen:** Team name + "⚡ reB0ot"
 
-"Hi, I'm [name] and this is Session Resume Card."
+"Hi, I'm [name] and this is ⚡ reB0ot."
 
 ---
 
@@ -17,9 +17,9 @@ Most developers spend 15 to 20 minutes every time they context-switch just tryin
 ---
 
 ## [SOLUTION - 10 seconds]
-**On screen:** Session Resume Card logo/name
+**On screen:** ⚡ reB0ot logo/name
 
-"Session Resume Card fixes that. It reads your Bob IDE session history and gives you a compact summary — exactly where you were, what you were doing, and what to do next."
+"⚡ reB0ot fixes that. It reads your Bob IDE session history and gives you a compact summary — exactly where you were, what you were doing, and what to do next."
 
 ---
 
@@ -38,7 +38,7 @@ This file has everything — my original request, Bob's responses, all the code 
 
 **[Open terminal]**
 
-So instead, I run Session Resume Card. I just type:
+So instead, I run ⚡ reB0ot. I just type:
 
 `.\run.ps1 --export session.md --format structured`
 
@@ -59,7 +59,7 @@ This is everything I need. When I start my next Bob session, I just paste this i
 ## [IMPACT - 25 seconds]
 **On screen:** bob_sessions folder, screenshots
 
-"Here's the meta part — we built this tool entirely using Bob IDE and watsonx.ai. Every session during development was exported and fed back into Session Resume Card itself. The bob_sessions folder in our repo has all the proof.
+"Here's the meta part — we built this tool entirely using Bob IDE and watsonx.ai. Every session during development was exported and fed back into ⚡ reB0ot itself. The bob_sessions folder in our repo has all the proof.
 
 We used Bobcoins efficiently by focusing on structured prompts and only processing what we needed. The result? We're saving 15-20 minutes every time we context-switch. For a developer who switches contexts 3-4 times a day, that's over an hour saved daily."
 
@@ -68,7 +68,7 @@ We used Bobcoins efficiently by focusing on structured prompts and only processi
 ## [CLOSE - 10 seconds]
 **On screen:** #watsonxHackathon, GitHub repo link
 
-"Session Resume Card — because your brain shouldn't be your only backup. Built with Bob IDE and watsonx.ai for the watsonx Hackathon. Check out the repo and try it yourself."
+"⚡ reB0ot — because your brain shouldn't be your only backup. Built with Bob IDE and watsonx.ai for the watsonx Hackathon. Check out the repo and try it yourself."
 
 ---
 
