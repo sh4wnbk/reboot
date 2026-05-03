@@ -4,4 +4,4 @@
 
 $env:WATSONX_API_KEY = "your-watsonx-api-key-here"
 $env:PROJECT_ID = "your-project-id-here"
-python resume.py $args
+python reboot.py $args
